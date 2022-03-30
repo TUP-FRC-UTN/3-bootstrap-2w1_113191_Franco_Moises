@@ -1,0 +1,11 @@
+#inicio{
+    background: url('.../imagenes/fondoCover.jpg') center center no-repeat;
+    background-size: cover;
+    height: 1080px;
+    display: flex;
+
+}
+
+#cover-texto{
+    width: 100%;
+}

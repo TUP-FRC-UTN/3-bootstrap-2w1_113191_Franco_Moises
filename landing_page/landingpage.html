@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/estilo.css">
+    <title>Hello, world!</title>
+</head>
+
+<body class="">
+    <nav class="navbar border-bottom border-secondary fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img style="height: 40px;" src="images/lowres.png" alt="PELIX">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#mainsection">Inicio </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobrenosotros">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#preguntasfrecuentes">Preguntas frecuentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactos">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="mainsection">
+        <div class="container">
+            <div class="row my-5"></div>
+            <div class="row py-5">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card bg-dark text-light p-5 my-4" style="width: 20rem;">
+                        <h3 class="font-weight-bold mb-3">Iniciar Sesión</h3>
+                        <form class="">
+                            <div class="form-group">
+                                <label for="usuario">Usuario</label>
+                                <input type="email" class="form-control" id="usuario" aria-describedby="emailHelp" placeholder="Ingresar usuario...">
+                                <small id="emailHelp" class="form-text text-muted">¿No tienes usuario? <a href="#">
+                                        registrate aquí</a></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="contra">Contraseña</label>
+                                <input type="password" class="form-control" id="contra" placeholder="Ingresar contraseña...">
+                                <small id="emailHelp" class="form-text text-muted"><a href="#">¿Has olvidado la
+                                        contraseña?</a></small>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label text-muted" for="exampleCheck1">Mantener sesión
+                                    iniciada</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-3">Ingresar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 text-light">
+                    <div class="jumbotron bg-dark my-4">
+                        <h1 class="display-4">Bienvenido!</h1>
+                        <p class="lead">Pelix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet.</p>
+                        <hr class="my-4">
+                        <p>Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!
+                        </p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="#sobrenosotros" role="button">Conocer más</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container" id="sobrenosotros">
+        <div class="row py-5 align-items-center">
+            <div class="col-lg-6 col-md-12 ">
+                <div id="carouselTodosLados" class="carousel slide my-5 p-5" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselTodosLados" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselTodosLados" data-slide-to="1"></li>
+                        <li data-target="#carouselTodosLados" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/tv.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/tablet.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/laptop.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselTodosLados" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselTodosLados" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 text-light order-lg-first order-md-last">
+                <h1 class="display-4 font-weight-bold">En todos lados.</h1>
+                <p class="h3">Disfruta de tus peliculas y series favoritas desde cualquier dispositivo</p>
+            </div>
+        </div>
+
+        <div class="border-top my-3"></div>
+
+        <div class="row py-5 align-items-center">
+
+            <div class="col-lg-6 col-md-12 align-content-center">
+                <div id="carouselDesconectado" class="carousel slide my-5 p-5" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselDesconectado" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselDesconectado" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/offline.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/descarga.png" alt="Second slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselDesconectado" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselDesconectado" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 text-light  ">
+                <h1 class="display-4 font-weight-bold">Desconectado.</h1>
+                <p class="h3">Descarga el contenido para verlo sin conexión a internet</p>
+            </div>
+        </div>
+
+        <div class="border-top my-3"></div>
+
+        <div class="row py-5 align-items-center">
+            <div class="col-lg-6 col-md-12 ">
+                <div id="carouselEnFamilia" class="carousel slide my-5 p-5" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselEnFamilia" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselEnFamilia" data-slide-to="1"></li>
+                        <li data-target="#carouselEnFamilia" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/familia.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/nenes.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/perfiles.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselEnFamilia" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselEnFamilia" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 text-light order-lg-first order-md-last">
+                <h1 class="display-4 font-weight-bold">En familia.</h1>
+                <p class="h3">Crea multiples perfiles para que todos en tu familia puedan disfrutar de pelix</p>
+            </div>
+        </div>
+
+        <div class="border-top my-3"></div>
+
+        <div class="row py-5 align-items-center">
+
+            <div class="col-lg-6 col-md-12 align-content-center">
+                <div id="carouselPersonalizado" class="carousel slide my-5 p-5" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselPersonalizado" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselPersonalizado" data-slide-to="1"></li>
+                        <li data-target="#carouselPersonalizado" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/rating.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/variadas.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/personalidades.png" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselPersonalizado" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselPersonalizado" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 text-light  ">
+                <h1 class="display-4 font-weight-bold">Personalizado.</h1>
+                <p class="h3">Pelix te recomendará contenido en base a tus preferencias</p>
+            </div>
+
+        </div>
+        <div class="border-top my-5"></div>
+        <div class="" style="height: 100px;"></div>
+        <h1 id="preguntasfrecuentes" class="text-white display-4 font-weight-bold">Preguntas frecuentes.</h1>
+        <div class="row py-5">
+            <div class="col-12">
+                <div id="accordion bg-dark">
+                    <div class="card bg-dark text-light">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0 ">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    ¿Que es Pelix?
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                                Pelix es un servicio de streaming que ofrece una gran variedad de películas, series y documentales premiados en casi cualquier pantalla conectada a internet. Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible. Siempre hay algo
+                                nuevo por descubrir, ¡y todas las semanas se agregan más películas y series!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-light">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ¿Donde puedo ver Pelix?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Pelix para ver contenido al instante a través de pelix.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que cuente con la app de Pelix, como smart
+                                TV, smartphones, tablets, reproductores multimedia y consolas de juegos. Además, puedes descargar tus series favoritas con iOS, Android o la app para Windows 10. Con la función de descarga, puedes ver donde vayas y sin
+                                conexión a internet. Lleva Pelix contigo adonde sea.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-light">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Cómo cancelo?
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                                Pelix es flexible. Sin contratos molestos ni compromisos. Cancela la membresía online con solo dos clics. No hay cargos por cancelación. Empieza y termina cuando quieras.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contactos" class="navbar bottom bg-dark text-light">
+        <h5 class="text-secondary">Contactanos</h5>
+        <div class="container">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Soporte Técnico</a>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
